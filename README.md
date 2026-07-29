@@ -23,6 +23,10 @@ NO_DOCKER=1 make build && ./bin/machine-controller-manager
 
 By default, we run make tasks in a container. To run the controller locally, set NO_DOCKER=1.
 
+## Development
+
+- [Bumping Kubernetes and Go](docs/development/bump-k8s-go.md)
+
 ## Running tests
 
 ### Unit
